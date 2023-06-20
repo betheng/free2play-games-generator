@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box; 
+  }
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+  }
+  #main {
+    display: flex;
+    flex: 1;
+  }
+  #main > article {
+    flex: 1;
+    order: 2;
+    background: lightgray;
+  } 
+  #main > aside {
+    background: gray;
+    order: 1;
+    flex: 0 0 20em
+  }
+  header {
+    background: black;
+    color: limegreen;
+    height: 3em;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 3vw;
+  }
+  p.instructions{
+    padding-top: 10px;
+    color: blue;
+    text-justify: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+  checkbox {
+    padding: 1px;
+  }
+  footer {
+    background: yellowgreen;
+    height: 5em;
+    text-align: center;
+  }
+  header, footer, article, aside {
+    padding: 1em;
+  }
+
+  .checkbox {
+    display: flex;
+    padding: 3%;
+  }
+
+  #genreHeading {
+    padding-top: 3%;
+  }
